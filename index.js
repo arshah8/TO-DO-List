@@ -26,7 +26,7 @@ console.log("What are you waiting for !");
 console.log(color.bgBlue("Start filling your TO-DO List, you have alot of Work to do Today:)"));
 const counter = 10;
 let i = 1;
-for (i; i <= 10; i++) {
+for (i; i <= 100; i++) {
     const ans = await inquirer.prompt([
         {
             name: (color.cyan("input")),

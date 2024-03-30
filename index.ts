@@ -31,7 +31,7 @@ console.log(color.bgBlue("Start filling your TO-DO List, you have alot of Work t
 );
 const counter = 10 ;
 let i: number = 1;
-for (i; i <= 10; i++) {
+for (i; i <= 100; i++) {
   const ans = await inquirer.prompt([
     {
       name: (color.cyan("input")),
@@ -51,10 +51,9 @@ for (i; i <= 10; i++) {
       },
     ]);
     if (question.input == "Yes") {
-    continue;
-    } else {  
-      break;
+      continue;
     }
+    else{break;}
   }
 
 }
