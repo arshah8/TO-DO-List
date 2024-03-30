@@ -1,0 +1,33 @@
+{
+  "name": "to-do-list-arshah08",
+  "version": "1.0.0",
+  "description": "A typescript program to save your TO-DO List .",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshah8/TO-DO-List.git"
+  },
+  "keywords": [
+    "typescript",
+    "TO-DO",
+    "List"
+  ],
+  "author": "arshah08",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arshah8/TO-DO-List/issues"
+  },
+  "homepage": "https://github.com/arshah8/TO-DO-List#readme",
+  "dependencies": {
+    "@types/node": "^20.12.2",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
